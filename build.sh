@@ -224,7 +224,7 @@ num_cpu()
 			ncpu=$(grep -c "^processor" /proc/cpuinfo)
 		elif [ -x /sbin/sysctl ]; then
 			ncpu=$(/sbin/sysctl -n hw.ncpu 2>/dev/null)
-			if [ $? -neq 0 ]; then
+                        if [ $? -ne 0 ]; then
 				ncpu=-1
 			fi
 		fi
