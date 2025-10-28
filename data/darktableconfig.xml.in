@@ -3520,7 +3520,7 @@
   <dtconfig common="yes">
     <name>ui_last/theme</name>
     <type>string</type>
-    <default>darktable-elegant-grey</default>
+    <default>darktable-icons</default>
     <shortdescription>darktable theme</shortdescription>
   </dtconfig>
   <dtconfig prefs="misc" section="interface">
